@@ -1,0 +1,345 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding: 15px;
+            background-color: darkorange;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            transition-duration: 0.4s;
+        }
+
+        button:hover {
+            background-color: #8a4c00;
+        }
+        .button-masuk{
+            background: #fff;
+            border: 1px solid #1851b7;
+            color: #1851b7;
+            margin: 20px 10px;
+        }
+
+        .button-daftar{
+            background:mediumblue;
+            border: 1px solid #1851b7;
+            color: #fff;
+            margin-top: 20px 10px;
+        }
+
+        .button-masuk:hover{
+            background-color: #cbcdd3;
+        }
+
+        .button-daftar:hover{
+            background-color: #310CA9;
+        }
+
+        menu {
+            display: flex;
+            flex-direction: row;
+            justify-content:start;
+            color: #fff;
+        }
+
+        menuitem{
+            padding: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+        }
+
+        .div1{
+            display: flex;
+            flex-direction: column;
+            background-color: #3570d9;
+            color: white;
+            border-bottom-left-radius: 75px;
+        }
+
+        .div1-a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .div2{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            margin-top: 50px;
+            align-items: center;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+
+        .div3{
+            display: flex;
+            flex-direction: column;
+            padding-top: 50px;
+            padding-right: 250px;
+            padding-bottom: 50px;
+            padding-left: 250px;
+            
+        }
+
+        .div3 h1{
+            color: darkblue;
+        }
+
+        table tr td{
+            padding-top: 40px;
+        }
+
+        .div4{
+            display: flex;
+            flex-direction: column;
+            background-color:#FDEDEC;
+            align-items: center;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+
+        .img1{
+            vertical-align: middle; 
+            box-sizing: border-box; 
+            object-fit: cover; 
+            border-radius: 8px; 
+            height: 350;
+            margin-top: 100px;
+        }
+
+        h1{
+            font-size: 50px;
+            font-family: sans-serif;
+        }
+
+        h2{
+            font-size: 25px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        h3{
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color:orange;
+        }
+
+        li{
+            font-size: 18px;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+
+        p{
+            color: gray;
+            font-size: 18px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+<div class="div1">
+    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <menu>
+            <img src="logo.svg" height="50px" alt="">
+            <menuitem>Dukungan</menuitem>
+            <menuitem>Kelas</menuitem>
+            <menuitem>FAQ</menuitem>
+            <menuitem>Rekrut Talent</menuitem>
+        </menu>
+
+        <div style="justify-content: center; padding-right: 50px;">
+            <button class="button-masuk">Masuk</button>
+            <button class="button-daftar">Daftar</button>
+        </div>
+        
+    </div>
+
+    <div class="div1-a">
+        <div style="display: flex; flex-direction: row;">
+                <div style="padding: 50px; width: 50%;">
+                    <div>
+                        <h1>Fullstack Mobile Developer</h1>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <ul>
+                            <li>Algoritma</li>
+                            <li>Javascript</li>
+                            <li>Express.js</li>
+                            <li>Redux</li>
+                            <li>SCRUM</li>
+                        </ul>
+                        <ul>
+                            <li>Responsive Website</li>
+                            <li>Node.js</li>
+                            <li>React</li>
+                            <li>React Native</li>
+                            <li>Real Time Application</li>
+                        </ul>
+                    </div>
+                    <button type="button">Daftar Sekarang</button>
+                </div>
+
+                <div>
+                    <img class="img1" src="https://assets-arkademy-wesbsite.s3-ap-southeast-1.amazonaws.com/Hero/faztrack-hero-img.jpg" alt="">
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="div2">
+    <div>
+        <img src="banner2.png" alt="">
+    </div>
+    <div style="padding: 100px;">
+        <h2>Mengerjakan projek bersama dengan teman satu tim</h2>
+        <p>Bangun projek kalian besama rekan satu tim untuk meningkatkan kerja sama dan kolaborasi antar individu.</p>
+    </div>
+</div>
+    
+<div class="div3">
+    <table>
+            <h2>Fullstack Mobile Developer</h2>
+            <p>Berikut ini adalah <i>timeline</i> pembelajaran yang akan diterima setiap minggu dalam kelas :</p>
+        <tr>
+            <td style="width:15%">
+                <h1>1-2</h1>
+            </td>
+            <td>
+                <h3>Algoritma, Flowchart dan Dasar JavaScript</h3>
+                <p>Pada dua minggu pertama, kalian akan mempelajari dasar programming seperti Algoritma dan Flowchart, lalu
+                dilanjutkan dengan materi JavaScript, seperti ES6, Asynchronous JavaScript dan lain-lain.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>3</h1>
+            </td>
+            <td>
+                <h3>Responsive Website</h3>
+                <p>Kalian akan mempelajari bagaimana membangun website yang responsive dengan HTML, CSS, dan Bootstrap</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>4</h1>
+            </td>
+            <td>
+                <h3>Beginner Backend with Node.js & Express.js</h3>
+                <p>Selanjutnya, kalian akan membangun sebuah RESTful HTTP API dengan menggunakan Node.js dan Express.js, serta
+                menggunakan database MySQL</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>5</h1>
+            </td>
+            <td>
+                <h3>Beginner Frontend with React</h3>
+                <p>Minggu ini kalian akan mempelajari Fundamental React.js, untuk membangun aplikasi web Frontend modern</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>6</h1>
+            </td>
+            <td>
+                <h3>Intermediate Backend</h3>
+                <p>Kalian akan belajar membuat autentikasi dengan JWT, melakukan paginasi dan upload file berbasis RESTful HTTP
+                API</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>7</h1>
+            </td>
+            <td>
+            <h3>Intermediate Frontend</h3>
+            <p>Minggu ini kalian akan mempelajari State Management Frontend dengan Redux</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>8</h1>
+            </td>
+            <td>
+                <h3>Team Project 1</h3>
+                <p>Kalian akan bekerja dalam tim dan membangun produk website dengan menerapkan framework SCRUM</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>9</h1>
+            </td>
+            <td>
+                <h3>Beginner Mobile Development with React Native</h3>
+                <p>Selanjutnya, kalian akan masuk ke development mobile dengan React Native yang dapat dibuild menjadi aplikasi
+                Android dan iOS</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>10</h1>
+            </td>
+            <td>
+                <h3>Intermediate Mobile Development</h3>
+                <p>Kalian akan lebih dalam mempelajari React Native dan menerapkan Push Notification</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>11</h1>
+            </td>
+            <td>
+                <h3>Real Time Application</h3>
+                <p>Kalian akan membangun aplikasi mobile berisi fitur Chat dan Map yang Realtime dengan memanfaatkan Socket.io
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h1>12</h1>
+            </td>
+            <td>
+                <h3>Team Project 2 (Final Project)</h3>
+                <p>Kalian akan bekerja dalam tim, diberi tantangan untuk membuat aplikasi baru dengan ide bisnis di dalamnya,
+                dan juga dengan menerapkan semua yang telah dipelajari</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="div4">
+    <div>
+        <hr color="darkblue" style="width: 15%; height: 2px;">
+        <h2>Siap Ubah Masa Depanmu?</h2>
+    </div>
+    <div>
+        <button type="button">Daftar Sekarang</button>
+    </div>
+</div>
+
+<div class="div5">
+    <img width="10%" src="https://www.arkademy.com/img/logo%20arkademy.1c82cf5c.svg" alt="logo-warna.svg">
+</div>
+        
+</body>
+
+</html>
